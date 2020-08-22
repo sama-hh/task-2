@@ -56,11 +56,6 @@ a {
 
 
 
-
-
-    }
-}
-
 .title {
     
     font-size: 35px;
@@ -89,7 +84,7 @@ a {
     padding-right: 5px;
     text-align: justify;
     background-color:rgb(196, 199, 199) ;
-    opacity: 90 %;
+    opacity: 90%;
 }
 
 
@@ -101,20 +96,23 @@ a {
     padding-right: 5px;
     text-align: justify;
     background-color:rgb(196, 199, 199) ;
-    opacity: 90 %;
+    opacity: 90%;
 }
 
 
 .my-col {
     background-color: rgb(116, 160, 156);
+    padding: 10px;
 }
 
 .my-col-2 {
     background-color: rgb(110, 181, 174);
+    padding: 10px;
 }
 
 .my-col-3 {
     background-color: rgb(139, 198, 192);
+    padding: 10px;
 }
 
 p {
@@ -125,7 +123,6 @@ h3 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 10px;
-    font-size: ;
 }
 
 .link {
@@ -134,7 +131,7 @@ h3 {
 
 @media (min-width: 576px) {
     #btn {
-        opacity: 0;
+        
     }
 }
 
@@ -142,3 +139,8 @@ h3 {
     max-width: 1400px;
 }
 
+
+.cols {
+    padding-left: 10px;
+    padding-right: 10px;
+}
