@@ -1,0 +1,145 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header-nav {
+    background-color: rgb(85, 172, 164) ;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.navbar-brand h1 {
+    
+    font-weight: bold;
+    color: rgb(6, 70, 77);
+}
+
+.header:hover,
+.header:focus {
+    color:rgb(6, 70, 77);
+    text-decoration: none;
+}
+
+#btn {
+  background-color:rgb(85, 172, 164);
+  border: none;
+  color: white;
+  font-size: 40px;
+  margin: 0; 
+}
+
+#btn:active,
+#btn:focus {
+    outline: none;
+}
+
+
+#collapsable-nav {
+    text-align: center;
+    
+}
+
+#list-1 {
+    padding-top: 20px;
+}
+
+a {
+    color:white;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+@media (min-width:     ) {
+    button {
+        opacity: 0;
+        ;
+        
+    }
+}
+
+.title {
+    
+    font-size: 35px;
+    margin: 20px;
+    font-weight: bold;
+    opacity: 83%;
+}
+
+.title-1, .title-2, .title-3 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.row-1, .row-2, .row-3 {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+    background-color:rgb(196, 199, 199) ;
+    opacity: 90 %;
+}
+
+
+
+.row-1, .row-2, .row-3 {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+    background-color:rgb(196, 199, 199) ;
+    opacity: 90 %;
+}
+
+
+.my-col {
+    background-color: rgb(116, 160, 156);
+}
+
+.my-col-2 {
+    background-color: rgb(110, 181, 174);
+}
+
+.my-col-3 {
+    background-color: rgb(139, 198, 192);
+}
+
+p {
+  text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: ;
+}
+
+.link {
+    color: black;
+}
+
+@media (min-width: 576px) {
+    #btn {
+        opacity: 0;
+    }
+}
+
+.container {
+    max-width: 1400px;
+}
+
